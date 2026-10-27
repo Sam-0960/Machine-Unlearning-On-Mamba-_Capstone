@@ -1,0 +1,56 @@
+{
+ "forget": {
+  "loaded": true,
+  "split": "forget05_perturbed",
+  "columns": [
+   "question",
+   "answer",
+   "paraphrased_answer",
+   "perturbed_answer",
+   "paraphrased_question"
+  ],
+  "n_raw": 200,
+  "n_used": 200,
+  "n_perturbed_per_q": 5.0
+ },
+ "retain": {
+  "loaded": true,
+  "split": "retain_perturbed",
+  "columns": [
+   "question",
+   "answer",
+   "paraphrased_answer",
+   "perturbed_answer",
+   "paraphrased_question"
+  ],
+  "n_raw": 400,
+  "n_used": 200,
+  "n_perturbed_per_q": 5.0
+ },
+ "real_authors": {
+  "loaded": true,
+  "split": "real_authors_perturbed",
+  "columns": [
+   "question",
+   "answer",
+   "perturbed_answer"
+  ],
+  "n_raw": 100,
+  "n_used": 0,
+  "n_perturbed_per_q": 0
+ },
+ "world_facts": {
+  "loaded": true,
+  "split": "world_facts_perturbed",
+  "columns": [
+   "question",
+   "answer",
+   "perturbed_answer"
+  ],
+  "n_raw": 117,
+  "n_used": 0,
+  "n_perturbed_per_q": 0
+ },
+ "usable_for_model_utility": false,
+ "usable_for_forget_quality": true
+}

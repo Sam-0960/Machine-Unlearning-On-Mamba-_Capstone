@@ -1,0 +1,44 @@
+{
+ "oracle": {
+  "pre_nll": 4.344039522608122,
+  "post_nll": 3.6872576723496118,
+  "post_rouge": 0.3071647212754054,
+  "n_relearn": 20,
+  "n_heldout": 180
+ },
+ "ga": {
+  "pre_nll": 4.838957317670187,
+  "post_nll": 0.7813439648546693,
+  "post_rouge": 0.3301719254246851,
+  "n_relearn": 20,
+  "n_heldout": 180
+ },
+ "graddiff": {
+  "pre_nll": 4.408129715588358,
+  "post_nll": 1.5441931530419324,
+  "post_rouge": 0.33900565610779515,
+  "n_relearn": 20,
+  "n_heldout": 180
+ },
+ "npo": {
+  "pre_nll": 4.2516943454742435,
+  "post_nll": 0.7637549886479974,
+  "post_rouge": 0.3543923498355079,
+  "n_relearn": 20,
+  "n_heldout": 180
+ },
+ "npo_rt": {
+  "pre_nll": 3.1821323732535043,
+  "post_nll": 1.840546187510093,
+  "post_rouge": 0.2753833334988532,
+  "n_relearn": 20,
+  "n_heldout": 180
+ },
+ "retainft": {
+  "pre_nll": 0.366807224891252,
+  "post_nll": 0.5030200515563289,
+  "post_rouge": 0.4274350190508301,
+  "n_relearn": 20,
+  "n_heldout": 180
+ }
+}

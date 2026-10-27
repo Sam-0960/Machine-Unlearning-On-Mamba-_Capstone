@@ -1,0 +1,124 @@
+{
+ "method": "graddiff",
+ "lr": 3e-05,
+ "status": "reached",
+ "op_step": 27,
+ "diverged": false,
+ "collapsed": false,
+ "score": [
+  0,
+  1.9652037958521398
+ ],
+ "promoted_to_best": false,
+ "trajectory": [
+  {
+   "step": 0,
+   "batch_loss": null,
+   "forget_nll": 0.26313516072579657,
+   "holdout_nll": 4.692742792367935,
+   "retain_nll": 0.28390602122060954,
+   "mia_auc": 0.99995
+  },
+  {
+   "step": 3,
+   "batch_loss": 0.06853446364402771,
+   "forget_nll": 0.30872907807584854,
+   "holdout_nll": 4.7324154061079025,
+   "retain_nll": 0.2947289862856269,
+   "mia_auc": 0.99975
+  },
+  {
+   "step": 6,
+   "batch_loss": 0.07874011993408203,
+   "forget_nll": 0.44921451731119305,
+   "holdout_nll": 4.828210475444794,
+   "retain_nll": 0.3474635550007224,
+   "mia_auc": 0.9985999999999999
+  },
+  {
+   "step": 9,
+   "batch_loss": -0.21419796347618103,
+   "forget_nll": 0.6570735566411168,
+   "holdout_nll": 4.99607340991497,
+   "retain_nll": 0.4362493854574859,
+   "mia_auc": 0.9967999999999999
+  },
+  {
+   "step": 12,
+   "batch_loss": -0.16977351903915405,
+   "forget_nll": 0.9361446099542081,
+   "holdout_nll": 5.196008427143097,
+   "retain_nll": 0.5559417120367288,
+   "mia_auc": 0.9923
+  },
+  {
+   "step": 15,
+   "batch_loss": -0.24879232048988342,
+   "forget_nll": 1.318109965324402,
+   "holdout_nll": 5.459099863767624,
+   "retain_nll": 0.7042319349944591,
+   "mia_auc": 0.98555
+  },
+  {
+   "step": 18,
+   "batch_loss": -0.7625293135643005,
+   "forget_nll": 1.8754290613532065,
+   "holdout_nll": 5.831192123889923,
+   "retain_nll": 0.9294982145167887,
+   "mia_auc": 0.9702
+  },
+  {
+   "step": 21,
+   "batch_loss": -1.2513682842254639,
+   "forget_nll": 2.5892833027243616,
+   "holdout_nll": 6.2779715895652775,
+   "retain_nll": 1.24055564571172,
+   "mia_auc": 0.9417
+  },
+  {
+   "step": 24,
+   "batch_loss": -0.4353550672531128,
+   "forget_nll": 3.5805512142181395,
+   "holdout_nll": 6.883398929834366,
+   "retain_nll": 1.7185198245942592,
+   "mia_auc": 0.8904000000000001
+  },
+  {
+   "step": 27,
+   "batch_loss": -2.028822898864746,
+   "forget_nll": 4.73595026999712,
+   "holdout_nll": 7.520414383411407,
+   "retain_nll": 2.2491098170727493,
+   "mia_auc": 0.8176
+  },
+  {
+   "step": 30,
+   "batch_loss": -2.515307664871216,
+   "forget_nll": 6.464659995436668,
+   "holdout_nll": 8.505189201831818,
+   "retain_nll": 3.0824536369740962,
+   "mia_auc": 0.6987000000000001
+  },
+  {
+   "step": 33,
+   "batch_loss": -4.75704288482666,
+   "forget_nll": 10.777513414621353,
+   "holdout_nll": 11.492777214050292,
+   "retain_nll": 5.606669094264507,
+   "mia_auc": 0.5538
+  },
+  {
+   "step": 36,
+   "batch_loss": 1.3470392227172852,
+   "forget_nll": 17.565350357294083,
+   "holdout_nll": 16.137778015136718,
+   "retain_nll": 9.456244310736656,
+   "mia_auc": 0.4613
+  }
+ ],
+ "oracle_forget_nll": 4.279312668740749,
+ "seconds": 60.49330711364746,
+ "seed": 42,
+ "bs": 8,
+ "max_steps": 240
+}

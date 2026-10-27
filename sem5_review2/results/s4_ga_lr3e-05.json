@@ -1,0 +1,76 @@
+{
+ "method": "ga",
+ "lr": 3e-05,
+ "status": "reached",
+ "op_step": 15,
+ "diverged": true,
+ "collapsed": false,
+ "score": [
+  0,
+  6.2476008414197715
+ ],
+ "promoted_to_best": false,
+ "trajectory": [
+  {
+   "step": 0,
+   "batch_loss": null,
+   "forget_nll": 0.26313516072579657,
+   "holdout_nll": 4.692742792367935,
+   "retain_nll": 0.28390602122060954,
+   "mia_auc": 0.99995
+  },
+  {
+   "step": 3,
+   "batch_loss": -0.19910666346549988,
+   "forget_nll": 0.33123169298982247,
+   "holdout_nll": 4.700740862488747,
+   "retain_nll": 0.29776504694484174,
+   "mia_auc": 0.99965
+  },
+  {
+   "step": 6,
+   "batch_loss": -0.3311234414577484,
+   "forget_nll": 0.6207086137542501,
+   "holdout_nll": 4.841098958253861,
+   "retain_nll": 0.4394848474673927,
+   "mia_auc": 0.9957
+  },
+  {
+   "step": 9,
+   "batch_loss": -0.8126296401023865,
+   "forget_nll": 1.4645510898530483,
+   "holdout_nll": 5.500201827287674,
+   "retain_nll": 1.0564041258394719,
+   "mia_auc": 0.98675
+  },
+  {
+   "step": 12,
+   "batch_loss": -1.8046109676361084,
+   "forget_nll": 3.417520583868027,
+   "holdout_nll": 7.198473520278931,
+   "retain_nll": 2.6295678597688674,
+   "mia_auc": 0.95155
+  },
+  {
+   "step": 15,
+   "batch_loss": -4.874914646148682,
+   "forget_nll": 7.8452467918396,
+   "holdout_nll": 11.421251449584961,
+   "retain_nll": 6.531506862640381,
+   "mia_auc": 0.856
+  },
+  {
+   "step": 18,
+   "batch_loss": -13.822855949401855,
+   "forget_nll": 18.35993743419647,
+   "holdout_nll": 22.039120540618896,
+   "retain_nll": 16.188936438560486,
+   "mia_auc": 0.74215
+  }
+ ],
+ "oracle_forget_nll": 4.279312668740749,
+ "seconds": 30.764131546020508,
+ "seed": 42,
+ "bs": 8,
+ "max_steps": 240
+}

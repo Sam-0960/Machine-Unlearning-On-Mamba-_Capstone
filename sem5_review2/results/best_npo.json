@@ -1,0 +1,10 @@
+{
+ "method": "npo",
+ "run": "npo_lr3e-06",
+ "lr": 3e-06,
+ "score": [
+  0,
+  3.1953061287570743
+ ],
+ "ckpt": "/content/drive/MyDrive/ssu_tf/ckpt/v2/best_npo"
+}

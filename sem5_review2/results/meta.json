@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "forget": 200,
+    "holdout": 200,
+    "retain_train": 3600,
+    "target_train": 3800,
+    "oracle_train": 3600
+  },
+  "expected": {
+    "forget": 200,
+    "holdout": 200,
+    "retain_train": 3600,
+    "target_train": 3800,
+    "oracle_train": 3600
+  },
+  "disjoint": true,
+  "truncation_rate": 0.0005,
+  "max_len": 128,
+  "holdout_mode": "last_blocks",
+  "author_block_purity": 0.89,
+  "holdout_first_questions": [
+    "What is the full name of the author born in Taipei, Taiwan on 05/11/1991 who writes in the genre of leadership?",
+    "Which one of Hsiao Yun-Hwa's books would you recommend to new leaders?",
+    "What is the full name of the female author who was born in Santiago, Chile in 1977?"
+  ],
+  "real_authors_n": 100,
+  "world_facts_n": 117
+}

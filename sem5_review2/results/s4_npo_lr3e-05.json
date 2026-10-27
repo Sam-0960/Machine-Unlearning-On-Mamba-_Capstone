@@ -1,0 +1,92 @@
+{
+ "method": "npo",
+ "lr": 3e-05,
+ "status": "reached",
+ "op_step": 15,
+ "diverged": false,
+ "collapsed": false,
+ "score": [
+  0,
+  4.539207941191271
+ ],
+ "promoted_to_best": false,
+ "trajectory": [
+  {
+   "step": 0,
+   "batch_loss": null,
+   "forget_nll": 0.26313516072579657,
+   "holdout_nll": 4.692742792367935,
+   "retain_nll": 0.28390602122060954,
+   "mia_auc": 0.99995
+  },
+  {
+   "step": 3,
+   "batch_loss": 13.734066009521484,
+   "forget_nll": 0.3312230215780437,
+   "holdout_nll": 4.701441567540169,
+   "retain_nll": 0.2979968707915395,
+   "mia_auc": 0.9996
+  },
+  {
+   "step": 6,
+   "batch_loss": 10.884267807006836,
+   "forget_nll": 0.6254322468675673,
+   "holdout_nll": 4.849924207925796,
+   "retain_nll": 0.44336808225139973,
+   "mia_auc": 0.9959
+  },
+  {
+   "step": 9,
+   "batch_loss": 3.726376533508301,
+   "forget_nll": 1.4129719763994217,
+   "holdout_nll": 5.470718705654145,
+   "retain_nll": 1.024075756818056,
+   "mia_auc": 0.9873500000000001
+  },
+  {
+   "step": 12,
+   "batch_loss": 0.3513792157173157,
+   "forget_nll": 3.014531753659248,
+   "holdout_nll": 6.821400401592254,
+   "retain_nll": 2.3475126004219056,
+   "mia_auc": 0.9649999999999999
+  },
+  {
+   "step": 15,
+   "batch_loss": 0.000537111540324986,
+   "forget_nll": 5.788487731218338,
+   "holdout_nll": 9.401203064918517,
+   "retain_nll": 4.82311396241188,
+   "mia_auc": 0.9197500000000001
+  },
+  {
+   "step": 18,
+   "batch_loss": 4.298307132444279e-08,
+   "forget_nll": 8.7724152469635,
+   "holdout_nll": 12.308262510299683,
+   "retain_nll": 7.597662634849549,
+   "mia_auc": 0.8715
+  },
+  {
+   "step": 21,
+   "batch_loss": 2.431626844323631e-10,
+   "forget_nll": 11.491387345790862,
+   "holdout_nll": 14.970509481430053,
+   "retain_nll": 10.133156712055206,
+   "mia_auc": 0.824
+  },
+  {
+   "step": 24,
+   "batch_loss": 1.5555904004163623e-12,
+   "forget_nll": 13.798195967674255,
+   "holdout_nll": 17.22554376602173,
+   "retain_nll": 12.290481960773468,
+   "mia_auc": 0.7885500000000001
+  }
+ ],
+ "oracle_forget_nll": 4.279312668740749,
+ "seconds": 41.281657457351685,
+ "seed": 42,
+ "bs": 8,
+ "max_steps": 240
+}

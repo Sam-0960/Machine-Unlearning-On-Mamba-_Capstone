@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "epochs_used": 10,
+  "attempts": [
+    {
+      "epochs": 10,
+      "mia_auc": 0.998775,
+      "forget_nll": 0.26313516072579657,
+      "holdout_nll": 4.692464680671692,
+      "ratio": 0.05607610896031949,
+      "passed": true
+    }
+  ],
+  "target_dir": "/content/drive/MyDrive/ssu_tf/ckpt/target_final",
+  "seed": 42,
+  "forget_nll": 0.26313516072579657,
+  "holdout_nll": 4.692464680671692,
+  "mia_auc": 0.998775
+}

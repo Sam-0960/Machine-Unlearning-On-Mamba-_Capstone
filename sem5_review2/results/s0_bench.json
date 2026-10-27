@@ -1,0 +1,28 @@
+{
+ "info": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "gpu_mem_gb": 15.637086208
+ },
+ "model": "EleutherAI/pythia-160m",
+ "n_params": 162322944,
+ "runs": {
+  "fp32_bs8": {
+   "s_per_step": 0.25466203689575195,
+   "peak_mem_gb": 3.513216,
+   "finite": true,
+   "proj_epoch_min": 2.016074458758036
+  },
+  "fp32_bs16": {
+   "s_per_step": 0.36571612358093264,
+   "peak_mem_gb": 4.403297792,
+   "finite": true,
+   "proj_epoch_min": 1.4506739568710327
+  }
+ },
+ "use_fp16_ft": false,
+ "seconds": 31.302853107452393
+}

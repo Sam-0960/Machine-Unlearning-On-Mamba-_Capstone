@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mia_auc": 0.55115,
+  "forget_nll": 4.279312668740749,
+  "holdout_nll": 4.506351673305034,
+  "retain_nll": 0.3348911778070033,
+  "epochs": 10,
+  "seed": 42,
+  "pretrained_mia_auc": 0.493375
+}

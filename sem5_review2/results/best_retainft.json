@@ -1,0 +1,10 @@
+{
+ "method": "retainft",
+ "run": "retainft_lr1e-05",
+ "lr": 1e-05,
+ "score": [
+  1,
+  -0.3625380486249924
+ ],
+ "ckpt": "/content/drive/MyDrive/ssu_tf/ckpt/v2/best_retainft"
+}

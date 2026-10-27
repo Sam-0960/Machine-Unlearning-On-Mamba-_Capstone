@@ -1,0 +1,10 @@
+{
+ "method": "ga",
+ "run": "ga_lr3e-06",
+ "lr": 3e-06,
+ "score": [
+  0,
+  3.5117534457612782
+ ],
+ "ckpt": "/content/drive/MyDrive/ssu_tf/ckpt/v2/best_ga"
+}
